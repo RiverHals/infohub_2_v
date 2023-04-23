@@ -42,7 +42,7 @@ To run the API in a Docker container:
 
 2. Run the Docker container:
    
-   docker run -d --name myapi-container -p 80:80 myapi
+   docker run -d --name myapi-container -p 8000:8000 myapi
    
    This will start the API on http://localhost in a Docker container. 
 
